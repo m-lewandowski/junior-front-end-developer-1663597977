@@ -1,0 +1,17 @@
+.footer {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-top: 1.6rem;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+  color: var(--grey-bodycopy);
+}
+
+.footer__nav,
+.footer__info {
+  align-items: center;
+  gap: 0.8rem;
+  display: flex;
+}
