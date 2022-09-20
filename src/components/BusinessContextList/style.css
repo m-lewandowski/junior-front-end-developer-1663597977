@@ -1,0 +1,40 @@
+.business-context__list-container {
+  overflow: scroll;
+  padding: 0.8rem 0.8rem 2rem 0.8rem;
+  background-color: var(--bg-grey);
+}
+
+@media only screen and (min-width: 37.5em) {
+  .business-context__list-container {
+    flex: 0 0 24rem;
+    border-bottom-left-radius: 1rem;
+    width: 24rem;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 56.25em) {
+  .business-context__list-container {
+    flex: 0 0 28rem;
+    width: 28rem;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .business-context__list-container {
+    flex: 0 0 32rem;
+    width: 32rem;
+  }
+}
+
+.business-context__list {
+  gap: 1rem;
+  display: flex;
+  list-style-type: none;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .business-context__list {
+    display: block;
+  }
+}
