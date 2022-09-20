@@ -1,12 +1,26 @@
 .app {
-  display: flex;
   flex-direction: column;
+  display: flex;
+  overflow: hidden;
   min-height: 100vh;
-  padding: 0.8rem 3.2rem;
+  padding: 0.8rem 2rem;
+}
+
+@media only screen and (min-width: 37.5em) {
+  .app {
+    padding: 0.8rem 3.2rem;
+  }
 }
 
 .app__main {
   flex-grow: 1;
+  flex-direction: column;
   gap: 1.6rem;
   display: flex;
+}
+
+@media only screen and (min-width: 56.25em) {
+  .app__main {
+    flex-direction: row;
+  }
 }

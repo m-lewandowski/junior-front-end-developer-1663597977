@@ -1,8 +1,20 @@
 .tasks {
-  flex-basis: 32rem;
   box-shadow: 0 1px rgba(0, 0, 0, 0.1);
   border-radius: 1.2rem;
   background-color: var(--bg-white);
+}
+
+@media only screen and (min-width: 56.25em) {
+  .tasks {
+    flex-basis: 26rem;
+    flex-shrink: 0;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .tasks {
+    flex-basis: 32rem;
+  }
 }
 
 .tasks__heading {
