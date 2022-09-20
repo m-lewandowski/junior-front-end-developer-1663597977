@@ -28,6 +28,29 @@ export const CheckIcon = () => (
   </svg>
 );
 
+export const CompassIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="18"
+    height="19"
+    fill="none"
+    viewBox="0 0 18 19"
+  >
+    <path
+      stroke="currentColor"
+      strokeWidth="1.5"
+      d="M7.049 8.684c-.05-.87-.04-1.839-.018-2.58v-.001h0V6.09l.012.006c.653.352 1.497.828 2.226 1.306.366.24.69.473.945.685.27.224.402.379.446.455.044.075.111.268.171.613.056.326.095.724.12 1.16.05.872.04 1.84.018 2.582v.013a10.594 10.594 0 01-3.183-1.997c-.27-.224-.402-.379-.446-.455-.044-.075-.111-.268-.17-.613a10.603 10.603 0 01-.121-1.16zM6.69 5.918l.002.001h-.002zm4.618 7.164l-.002-.001h.002z"
+    ></path>
+    <circle
+      cx="9"
+      cy="9.5"
+      r="8"
+      stroke="currentColor"
+      strokeWidth="1.5"
+    ></circle>
+  </svg>
+);
+
 export const LockIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
