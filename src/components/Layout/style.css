@@ -12,6 +12,13 @@
   }
 }
 
+@media only screen and (min-width: 75em) {
+  .app {
+    margin: 0 auto;
+    max-width: 198rem;
+  }
+}
+
 .app__main {
   flex-grow: 1;
   flex-direction: column;
