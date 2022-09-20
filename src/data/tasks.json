@@ -7,28 +7,25 @@
       {
         "id": 1,
         "author": "Olga Nelson",
-        "datetime": "2022-09-19T21:05:42.124Z",
+        "created_at": "2022-09-19T21:05:42.124Z",
         "title": "Lorem ipsum dolor sit amet",
-        "message": "Praesent dui ex, sollicitudin at nulla sed, dictum commodo mauris. Morbi non vehicula eros. Ut aliquam, metus ac venenatis finibus, eros nisl ullamcorper nibh, nec volutpat tortor sapien et sem. Etiam malesuada tortor in elementum molestie. Integer blandit bibendum velit quis ultricies.",
-        "isNew": true,
+        "content": "Praesent dui ex,\nsollicitudin at nulla sed, dictum commodo mauris. Morbi non vehicula eros. Ut aliquam, metus ac venenatis finibus, eros nisl ullamcorper nibh, nec volutpat tortor sapien et sem. Etiam malesuada tortor in elementum molestie.\nInteger blandit bibendum velit quis ultricies.",
         "isUnread": true
       },
       {
         "id": 2,
         "author": "Kirsten Aniston",
-        "datetime": "2022-09-11T12:34:42.124Z",
+        "created_at": "2022-09-11T12:34:42.124Z",
         "title": "Maecenas vel est vel turpis facilisis dictum",
-        "message": "Curabitur posuere, est ac sagittis auctor, lacus quam laoreet elit, ac tincidunt nibh neque ac est. Cras elit ipsum, rhoncus non tristique at, ullamcorper a lacus. Ut semper, est non mollis aliquet, leo tellus lobortis sapien, id faucibus enim magna at mi. Aliquam mollis in erat in rhoncus. Proin vehicula urna urna, quis gravida dolor cursus vel. Maecenas luctus vestibulum nulla et semper. Nam blandit, elit dictum ullamcorper lobortis, nunc enim venenatis felis, malesuada tincidunt neque libero ut velit. Cras commodo mollis lectus, a molestie eros auctor quis. Vivamus facilisis urna non nibh lobortis suscipit.",
-        "isNew": false,
-        "isUnread": true
+        "content": "Curabitur posuere,\nest ac sagittis auctor, lacus quam laoreet elit, ac tincidunt nibh neque ac est. Cras elit ipsum, rhoncus non tristique at, ullamcorper a lacus. Ut semper, est non mollis aliquet, leo tellus lobortis sapien, id faucibus enim magna at mi.\nAliquam mollis in erat in rhoncus. Proin vehicula urna urna, quis gravida dolor cursus vel. Maecenas luctus vestibulum nulla et semper. Nam blandit, elit dictum ullamcorper lobortis, nunc enim venenatis felis, malesuada tincidunt neque libero ut velit. Cras commodo mollis lectus, a molestie eros auctor quis. Vivamus facilisis urna non nibh lobortis suscipit.",
+        "isUnread": false
       },
       {
         "id": 3,
         "author": "Kirsten Aniston",
-        "datetime": "2022-08-31T16:22:42.124Z",
+        "created_at": "2022-08-31T16:22:42.124Z",
         "title": "Etiam non tortor nec urna dignissim sagittis",
-        "message": "Quisque imperdiet pulvinar sem mollis mollis. Pellentesque et enim non libero sollicitudin laoreet. Ut consectetur mollis risus, at dictum massa. Vivamus tristique rhoncus elit, ut imperdiet nibh vestibulum ac. Ut a ligula a velit consectetur sollicitudin. Mauris vehicula ante a condimentum porttitor. Phasellus at dui neque. Aliquam tempor massa eros, fermentum maximus felis vehicula ut. Aliquam eget mi euismod, venenatis velit eu, auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus fermentum, luctus tortor eget, placerat risus. Nam tincidunt tortor ac lorem molestie, eu tempor neque cursus. Integer at sapien tempor, lacinia enim nec, mattis ante. Cras nec eros vitae augue egestas tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        "isNew": false,
+        "content": "Quisque imperdiet pulvinar sem mollis mollis.\nPellentesque et enim non libero sollicitudin laoreet. Ut consectetur mollis risus, at dictum massa. Vivamus tristique rhoncus elit, ut imperdiet nibh vestibulum ac. Ut a ligula a velit consectetur sollicitudin. Mauris vehicula ante a condimentum porttitor. Phasellus at dui neque. Aliquam tempor massa eros, fermentum maximus felis vehicula ut. Aliquam eget mi euismod, venenatis velit eu, auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus fermentum, luctus tortor eget, placerat risus. Nam tincidunt tortor ac lorem molestie, eu tempor neque cursus. Integer at sapien tempor, lacinia enim nec, mattis ante. Cras nec eros vitae augue egestas tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
         "isUnread": false
       }
     ]
@@ -41,19 +38,17 @@
       {
         "id": 1,
         "author": "Olga Nelson",
-        "datetime": "2022-09-19T21:05:42.124Z",
+        "created_at": "2022-09-19T21:05:42.124Z",
         "title": "Fusce dignissim imperdiet iaculis",
-        "message": "Sed volutpat purus ut justo dapibus, nec congue orci maximus. Donec non vehicula lectus, eu porta odio. Vivamus porttitor lectus et tortor pharetra pharetra. In erat quam, placerat ut turpis sed, faucibus laoreet odio. Etiam porttitor nunc eget urna bibendum, nec condimentum libero dapibus. Aliquam vitae magna vitae lacus auctor sodales a vitae nibh. Maecenas euismod egestas tempor. Nunc vitae metus accumsan, bibendum quam eget, varius dui.",
-        "isNew": false,
+        "content": "Sed volutpat purus ut justo dapibus,\nnec congue orci maximus. Donec non vehicula lectus, eu porta odio. Vivamus porttitor lectus et tortor pharetra pharetra. In erat quam, placerat ut turpis sed, faucibus laoreet odio. Etiam porttitor nunc eget urna bibendum, nec condimentum libero dapibus. Aliquam vitae magna vitae lacus auctor sodales a vitae nibh. Maecenas euismod egestas tempor. Nunc vitae metus accumsan, bibendum quam eget, varius dui.",
         "isUnread": true
       },
       {
         "id": 2,
         "author": "Kirsten Aniston",
-        "datetime": "2022-09-11T12:34:42.124Z",
+        "created_at": "2022-09-11T12:34:42.124Z",
         "title": "Vestibulum ante ipsum primis",
-        "message": "Duis ornare est a lorem faucibus dignissim. Sed feugiat convallis risus eget fermentum. Sed at ipsum feugiat quam ultrices sodales in at nibh. Fusce at quam augue. Vivamus suscipit sem odio, facilisis gravida sapien consequat sit amet. Vestibulum orci nibh, maximus ut massa sed, viverra fringilla nisi. Etiam id mollis diam. Sed tristique varius metus laoreet dictum. Suspendisse rutrum malesuada nunc, eu pharetra velit venenatis in. Fusce vitae massa a est mattis ultricies id sit amet enim. Vivamus faucibus augue sed dictum accumsan. Pellentesque efficitur diam eget ligula ullamcorper, sed ornare ex tincidunt.",
-        "isNew": false,
+        "content": "Duis ornare est a lorem faucibus dignissim.\nSed feugiat convallis risus eget fermentum. Sed at ipsum feugiat quam ultrices sodales in at nibh. Fusce at quam augue. Vivamus suscipit sem odio, facilisis gravida sapien consequat sit amet. Vestibulum orci nibh, maximus ut massa sed, viverra fringilla nisi. Etiam id mollis diam. Sed tristique varius metus laoreet dictum. Suspendisse rutrum malesuada nunc, eu pharetra velit venenatis in. Fusce vitae massa a est mattis ultricies id sit amet enim. Vivamus faucibus augue sed dictum accumsan. Pellentesque efficitur diam eget ligula ullamcorper, sed ornare ex tincidunt.",
         "isUnread": false
       }
     ]
@@ -66,19 +61,17 @@
       {
         "id": 1,
         "author": "Olga Nelson",
-        "datetime": "2022-09-20T06:55:42.124Z",
+        "created_at": "2022-09-20T06:55:42.124Z",
         "title": "Cras nec eros vitae augue egestas tristique",
-        "message": "Fusce dignissim imperdiet iaculis. Duis varius consequat magna at cursus. Nunc non sollicitudin leo, quis laoreet nulla. Phasellus sed nunc elit. Vivamus in efficitur ligula, et ultrices turpis. Integer at iaculis sem. Nam turpis metus, lobortis eu lacus quis, blandit malesuada nisi. Etiam ultricies, metus vel lacinia feugiat, felis lorem laoreet dolor, fermentum mattis metus lacus maximus massa. Aenean porta congue lectus non suscipit. Vivamus nec pretium quam. Aenean consectetur dolor at finibus faucibus. Vivamus nibh est, porta vitae consequat cursus, finibus eu tortor. Etiam sed pharetra enim. Aliquam vel metus mauris. Praesent facilisis erat ipsum, vitae bibendum sem dignissim et. Curabitur vitae ligula nisi.",
-        "isNew": false,
+        "content": "Fusce dignissim imperdiet iaculis.\nDuis varius consequat magna at cursus. Nunc non sollicitudin leo, quis laoreet nulla. Phasellus sed nunc elit. Vivamus in efficitur ligula, et ultrices turpis.\nInteger at iaculis sem. Nam turpis metus, lobortis eu lacus quis, blandit malesuada nisi. Etiam ultricies, metus vel lacinia feugiat, felis lorem laoreet dolor, fermentum mattis metus lacus maximus massa. Aenean porta congue lectus non suscipit. Vivamus nec pretium quam. Aenean consectetur dolor at finibus faucibus. Vivamus nibh est, porta vitae consequat cursus, finibus eu tortor. Etiam sed pharetra enim. Aliquam vel metus mauris. Praesent facilisis erat ipsum, vitae bibendum sem dignissim et. Curabitur vitae ligula nisi.",
         "isUnread": true
       },
       {
         "id": 2,
         "author": "Kirsten Aniston",
-        "datetime": "2022-08-31T16:22:42.124Z",
+        "created_at": "2022-08-31T16:22:42.124Z",
         "title": "Etiam non tortor nec urna dignissim sagittis",
-        "message": "Quisque imperdiet pulvinar sem mollis mollis. Pellentesque et enim non libero sollicitudin laoreet. Ut consectetur mollis risus, at dictum massa. Vivamus tristique rhoncus elit, ut imperdiet nibh vestibulum ac. Ut a ligula a velit consectetur sollicitudin. Mauris vehicula ante a condimentum porttitor. Phasellus at dui neque. Aliquam tempor massa eros, fermentum maximus felis vehicula ut. Aliquam eget mi euismod, venenatis velit eu, auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus fermentum, luctus tortor eget, placerat risus. Nam tincidunt tortor ac lorem molestie, eu tempor neque cursus. Integer at sapien tempor, lacinia enim nec, mattis ante. Cras nec eros vitae augue egestas tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        "isNew": false,
+        "content": "Quisque imperdiet pulvinar sem mollis mollis.\nPellentesque et enim non libero sollicitudin laoreet. Ut consectetur mollis risus, at dictum massa. Vivamus tristique rhoncus elit, ut imperdiet nibh vestibulum ac. Ut a ligula a velit consectetur sollicitudin. Mauris vehicula ante a condimentum porttitor. Phasellus at dui neque. Aliquam tempor massa eros, fermentum maximus felis vehicula ut. Aliquam eget mi euismod, venenatis velit eu, auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus fermentum, luctus tortor eget, placerat risus. Nam tincidunt tortor ac lorem molestie, eu tempor neque cursus. Integer at sapien tempor, lacinia enim nec, mattis ante. Cras nec eros vitae augue egestas tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
         "isUnread": false
       }
     ]
@@ -91,19 +84,17 @@
       {
         "id": 1,
         "author": "Olga Nelson",
-        "datetime": "2022-09-22T06:55:42.124Z",
+        "created_at": "2022-09-22T06:55:42.124Z",
         "title": "Nam libero orci, aliquam vel diam eget",
-        "message": "Curabitur posuere, est ac sagittis auctor, lacus quam laoreet elit, ac tincidunt nibh neque ac est. Cras elit ipsum, rhoncus non tristique at, ullamcorper a lacus. Ut semper, est non mollis aliquet, leo tellus lobortis sapien, id faucibus enim magna at mi. Aliquam mollis in erat in rhoncus. Proin vehicula urna urna, quis gravida dolor cursus vel. Maecenas luctus vestibulum nulla et semper. Nam blandit, elit dictum ullamcorper lobortis, nunc enim venenatis felis, malesuada tincidunt neque libero ut velit. Cras commodo mollis lectus, a molestie eros auctor quis. Vivamus facilisis urna non nibh lobortis suscipit. Quisque vitae neque posuere, facilisis sapien at, scelerisque ex. Aliquam fringilla lobortis ipsum ac suscipit. Sed facilisis elementum nisl, vitae volutpat neque finibus ut.",
-        "isNew": false,
+        "content": "Curabitur posuere, est ac sagittis auctor, lacus quam laoreet elit, ac tincidunt nibh neque ac est. Cras elit ipsum, rhoncus non tristique at, ullamcorper a lacus. Ut semper, est non mollis aliquet, leo tellus lobortis sapien, id faucibus enim magna at mi. Aliquam mollis in erat in rhoncus. Proin vehicula urna urna, quis gravida dolor cursus vel. Maecenas luctus vestibulum nulla et semper. Nam blandit, elit dictum ullamcorper lobortis, nunc enim venenatis felis, malesuada tincidunt neque libero ut velit. Cras commodo mollis lectus, a molestie eros auctor quis. Vivamus facilisis urna non nibh lobortis suscipit. Quisque vitae neque posuere, facilisis sapien at, scelerisque ex. Aliquam fringilla lobortis ipsum ac suscipit. Sed facilisis elementum nisl, vitae volutpat neque finibus ut.",
         "isUnread": false
       },
       {
         "id": 2,
         "author": "Kirsten Aniston",
-        "datetime": "2022-08-31T16:22:42.124Z",
+        "created_at": "2022-08-31T16:22:42.124Z",
         "title": "Etiam non tortor nec urna dignissim sagittis",
-        "message": "Quisque imperdiet pulvinar sem mollis mollis. Pellentesque et enim non libero sollicitudin laoreet. Ut consectetur mollis risus, at dictum massa. Vivamus tristique rhoncus elit, ut imperdiet nibh vestibulum ac. Ut a ligula a velit consectetur sollicitudin. Mauris vehicula ante a condimentum porttitor. Phasellus at dui neque. Aliquam tempor massa eros, fermentum maximus felis vehicula ut. Aliquam eget mi euismod, venenatis velit eu, auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus fermentum, luctus tortor eget, placerat risus. Nam tincidunt tortor ac lorem molestie, eu tempor neque cursus. Integer at sapien tempor, lacinia enim nec, mattis ante. Cras nec eros vitae augue egestas tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        "isNew": false,
+        "content": "Quisque imperdiet pulvinar sem mollis mollis.\nPellentesque et enim non libero sollicitudin laoreet. Ut consectetur mollis risus, at dictum massa. Vivamus tristique rhoncus elit, ut imperdiet nibh vestibulum ac. Ut a ligula a velit consectetur sollicitudin. Mauris vehicula ante a condimentum porttitor. Phasellus at dui neque. Aliquam tempor massa eros, fermentum maximus felis vehicula ut. Aliquam eget mi euismod, venenatis velit eu, auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus fermentum, luctus tortor eget, placerat risus. Nam tincidunt tortor ac lorem molestie, eu tempor neque cursus. Integer at sapien tempor, lacinia enim nec, mattis ante. Cras nec eros vitae augue egestas tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
         "isUnread": false
       }
     ]
@@ -116,28 +107,25 @@
       {
         "id": 1,
         "author": "Olga Nelson",
-        "datetime": "2022-09-19T21:05:42.124Z",
+        "created_at": "2022-09-19T21:05:42.124Z",
         "title": "Curabitur vitae ligula nisi",
-        "message": "Fusce dignissim imperdiet iaculis. Duis varius consequat magna at cursus. Nunc non sollicitudin leo, quis laoreet nulla. Phasellus sed nunc elit. Vivamus in efficitur ligula, et ultrices turpis. Integer at iaculis sem. Nam turpis metus, lobortis eu lacus quis, blandit malesuada nisi. Etiam ultricies, metus vel lacinia feugiat, felis lorem laoreet dolor, fermentum mattis metus lacus maximus massa. Aenean porta congue lectus non suscipit. Vivamus nec pretium quam. Aenean consectetur dolor at finibus faucibus. Vivamus nibh est, porta vitae consequat cursus, finibus eu tortor. Etiam sed pharetra enim. Aliquam vel metus mauris. Praesent facilisis erat ipsum, vitae bibendum sem dignissim et. Curabitur vitae ligula nisi.",
-        "isNew": true,
+        "content": "Fusce dignissim imperdiet iaculis. Duis varius consequat magna at cursus. Nunc non sollicitudin leo, quis laoreet nulla. Phasellus sed nunc elit. Vivamus in efficitur ligula, et ultrices turpis. Integer at iaculis sem. Nam turpis metus, lobortis eu lacus quis, blandit malesuada nisi. Etiam ultricies, metus vel lacinia feugiat, felis lorem laoreet dolor, fermentum mattis metus lacus maximus massa. Aenean porta congue lectus non suscipit. Vivamus nec pretium quam. Aenean consectetur dolor at finibus faucibus. Vivamus nibh est, porta vitae consequat cursus, finibus eu tortor. Etiam sed pharetra enim. Aliquam vel metus mauris. Praesent facilisis erat ipsum, vitae bibendum sem dignissim et. Curabitur vitae ligula nisi.",
         "isUnread": true
       },
       {
         "id": 2,
         "author": "Kirsten Aniston",
-        "datetime": "2022-09-11T12:34:42.124Z",
+        "created_at": "2022-09-11T12:34:42.124Z",
         "title": "Maecenas vel est vel turpis facilisis dictum",
-        "message": "Sed volutpat purus ut justo dapibus, nec congue orci maximus. Donec non vehicula lectus, eu porta odio. Vivamus porttitor lectus et tortor pharetra pharetra. In erat quam, placerat ut turpis sed, faucibus laoreet odio. Etiam porttitor nunc eget urna bibendum, nec condimentum libero dapibus. Aliquam vitae magna vitae lacus auctor sodales a vitae nibh. Maecenas euismod egestas tempor. Nunc vitae metus accumsan, bibendum quam eget, varius dui.",
-        "isNew": false,
+        "content": "Sed volutpat purus ut justo dapibus, nec congue orci maximus. Donec non vehicula lectus, eu porta odio. Vivamus porttitor lectus et tortor pharetra pharetra. In erat quam, placerat ut turpis sed, faucibus laoreet odio. Etiam porttitor nunc eget urna bibendum, nec condimentum libero dapibus. Aliquam vitae magna vitae lacus auctor sodales a vitae nibh. Maecenas euismod egestas tempor. Nunc vitae metus accumsan, bibendum quam eget, varius dui.",
         "isUnread": true
       },
       {
         "id": 3,
         "author": "Kirsten Aniston",
-        "datetime": "2022-08-31T16:22:42.124Z",
+        "created_at": "2022-08-31T16:22:42.124Z",
         "title": "Etiam non tortor nec urna dignissim sagittis",
-        "message": "Quisque imperdiet pulvinar sem mollis mollis. Pellentesque et enim non libero sollicitudin laoreet. Ut consectetur mollis risus, at dictum massa. Vivamus tristique rhoncus elit, ut imperdiet nibh vestibulum ac. Ut a ligula a velit consectetur sollicitudin. Mauris vehicula ante a condimentum porttitor. Phasellus at dui neque. Aliquam tempor massa eros, fermentum maximus felis vehicula ut. Aliquam eget mi euismod, venenatis velit eu, auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus fermentum, luctus tortor eget, placerat risus. Nam tincidunt tortor ac lorem molestie, eu tempor neque cursus. Integer at sapien tempor, lacinia enim nec, mattis ante. Cras nec eros vitae augue egestas tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-        "isNew": false,
+        "content": "Quisque imperdiet pulvinar sem mollis mollis.\nPellentesque et enim non libero sollicitudin laoreet. Ut consectetur mollis risus, at dictum massa. Vivamus tristique rhoncus elit, ut imperdiet nibh vestibulum ac. Ut a ligula a velit consectetur sollicitudin.\nMauris vehicula ante a condimentum porttitor. Phasellus at dui neque. Aliquam tempor massa eros, fermentum maximus felis vehicula ut. Aliquam eget mi euismod, venenatis velit eu, auctor purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus fermentum, luctus tortor eget, placerat risus. Nam tincidunt tortor ac lorem molestie, eu tempor neque cursus. Integer at sapien tempor, lacinia enim nec, mattis ante. Cras nec eros vitae augue egestas tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
         "isUnread": false
       }
     ]
