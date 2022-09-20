@@ -1,4 +1,5 @@
 import { ArrowIcon, CheckIcon, LockIcon } from "assets/icons";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 const statuses = {
@@ -20,15 +21,20 @@ const TaskItem = ({ data: { id, title, status } }) => {
   const { classSuffix, icon } = statuses[status];
 
   return (
-    <li className="task-item">
-      <div
-        className={`task-item__icon-wrapper task-item__icon-wrapper--${classSuffix}`}
+    <li>
+      <NavLink
+        to={status !== "BLOCKED" ? `/tasks/${id}` : "#"}
+        className={`task-item task-item--${classSuffix}`}
       >
-        {icon}
-      </div>
-      <span className={`task-item__title task-item__title--${classSuffix}`}>
-        {title}
-      </span>
+        <div
+          className={`task-item__icon-wrapper task-item__icon-wrapper--${classSuffix}`}
+        >
+          {icon}
+        </div>
+        <span className={`task-item__title task-item__title--${classSuffix}`}>
+          {title}
+        </span>
+      </NavLink>
     </li>
   );
 };

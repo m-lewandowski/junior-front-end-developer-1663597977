@@ -1,7 +1,11 @@
 .task-item {
   align-items: center;
   display: flex;
-  margin-bottom: 1.765rem;
+  padding: 0.8825rem 0;
+}
+
+.task-item--blocked {
+  pointer-events: none;
 }
 
 .task-item__icon-wrapper {
@@ -34,6 +38,10 @@
   line-height: 1.8rem;
   font-weight: 500;
   color: var(--black-headline);
+}
+
+.task-item.active .task-item__title {
+  font-weight: 600;
 }
 
 .task-item__title--blocked {
