@@ -1,18 +1,33 @@
+import { TasksContext } from "context/TasksContext";
 import dayjs from "dayjs";
+import { useContext } from "react";
 import "./style.css";
 
 const BusinessContextItem = ({
   data: { author, created_at, isUnread, title, content, id },
+  taskId,
 }) => {
-  const active = id === 2;
+  const { selectedContext, setSelectedContext, handleReadItem, loading } =
+    useContext(TasksContext);
+
+  const active = selectedContext === id;
+
+  const handleClick = () => {
+    if (isUnread) {
+      handleReadItem(taskId, id);
+    }
+    setSelectedContext(id);
+  };
+
   return (
     <li
       className={`business-context-item${
-        isUnread ? " business-context-item--unread" : ""
+        isUnread && !loading ? " business-context-item--unread" : ""
       }${active ? " business-context-item--active" : ""}`}
+      onClick={handleClick}
     >
       <div className="business-context-item__info">
-        {isUnread && (
+        {isUnread && !loading && (
           <span className="business-context-item__new-label">new</span>
         )}
         <span>{author}</span>

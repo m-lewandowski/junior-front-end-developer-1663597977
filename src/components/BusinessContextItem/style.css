@@ -4,6 +4,7 @@
   border-radius: 0.8rem;
   width: 22rem;
   padding: 1.4rem 1.8rem 1.8rem 2rem;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -21,6 +22,7 @@
 .business-context-item--active {
   background-color: var(--bg-white);
   box-shadow: 0 8px 16px rgba(84, 84, 84, 0.2);
+  cursor: default;
 }
 
 .business-context-item__info {

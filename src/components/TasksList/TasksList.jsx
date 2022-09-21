@@ -1,8 +1,10 @@
 import TaskItem from "components/TaskItem/TaskItem";
-import tasks from "data/tasks";
+import { TasksContext } from "context/TasksContext";
+import { useContext } from "react";
 import "./style.css";
 
 const TasksList = () => {
+  const { tasks } = useContext(TasksContext);
   return (
     <aside className="tasks">
       <h1 className="tasks__heading">Your tasks</h1>
