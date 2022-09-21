@@ -1,18 +1,45 @@
+import { TasksContext } from "context/TasksContext";
 import dayjs from "dayjs";
+import { useContext, useEffect, useRef } from "react";
 import "./style.css";
 
 const BusinessContextItem = ({
   data: { author, created_at, isUnread, title, content, id },
+  taskId,
 }) => {
-  const active = id === 2;
+  const ref = useRef();
+  const { selectedContext, setSelectedContext, handleReadItem, loading } =
+    useContext(TasksContext);
+
+  const active = selectedContext === id;
+
+  useEffect(() => {
+    if (active) {
+      ref.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "center",
+      });
+    }
+  }, [active, loading]);
+
+  const handleClick = () => {
+    if (isUnread) {
+      handleReadItem(taskId, id);
+    }
+    setSelectedContext(id);
+  };
+
   return (
     <li
       className={`business-context-item${
-        isUnread ? " business-context-item--unread" : ""
+        isUnread && !loading ? " business-context-item--unread" : ""
       }${active ? " business-context-item--active" : ""}`}
+      onClick={handleClick}
+      ref={ref}
     >
       <div className="business-context-item__info">
-        {isUnread && (
+        {isUnread && !loading && (
           <span className="business-context-item__new-label">new</span>
         )}
         <span>{author}</span>

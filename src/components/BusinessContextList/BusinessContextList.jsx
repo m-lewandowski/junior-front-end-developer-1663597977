@@ -1,10 +1,12 @@
 import BusinessContextItem from "components/BusinessContextItem";
-import tasks from "data/tasks";
-import { useMemo } from "react";
+import { TasksContext } from "context/TasksContext";
+import { useContext, useMemo } from "react";
 import { useParams } from "react-router-dom";
 import "./style.css";
 
 const BusinessContextList = () => {
+  const { tasks } = useContext(TasksContext);
+
   const { taskId } = useParams();
 
   const items = useMemo(() => {
@@ -13,13 +15,17 @@ const BusinessContextList = () => {
       return tasks[index].businessContexts;
     }
     return [];
-  }, [taskId]);
+  }, [taskId, tasks]);
 
   return (
     <section className="business-context__list-container">
       <ul className="business-context__list">
         {items.map((item) => (
-          <BusinessContextItem key={item.id} data={item} />
+          <BusinessContextItem
+            key={item.id}
+            data={item}
+            taskId={parseInt(taskId)}
+          />
         ))}
       </ul>
     </section>
