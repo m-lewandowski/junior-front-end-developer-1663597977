@@ -29,8 +29,8 @@ const TasksProvider = ({ children }) => {
         }
       });
       setTasks(tasksTemp);
-      setLoading(false);
     }
+    setLoading(false);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleReadItem = (taskId, contextId) => {
