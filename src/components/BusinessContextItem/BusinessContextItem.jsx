@@ -1,16 +1,27 @@
 import { TasksContext } from "context/TasksContext";
 import dayjs from "dayjs";
-import { useContext } from "react";
+import { useContext, useEffect, useRef } from "react";
 import "./style.css";
 
 const BusinessContextItem = ({
   data: { author, created_at, isUnread, title, content, id },
   taskId,
 }) => {
+  const ref = useRef();
   const { selectedContext, setSelectedContext, handleReadItem, loading } =
     useContext(TasksContext);
 
   const active = selectedContext === id;
+
+  useEffect(() => {
+    if (active) {
+      ref.current.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+        inline: "center",
+      });
+    }
+  }, [active, loading]);
 
   const handleClick = () => {
     if (isUnread) {
@@ -25,6 +36,7 @@ const BusinessContextItem = ({
         isUnread && !loading ? " business-context-item--unread" : ""
       }${active ? " business-context-item--active" : ""}`}
       onClick={handleClick}
+      ref={ref}
     >
       <div className="business-context-item__info">
         {isUnread && !loading && (
