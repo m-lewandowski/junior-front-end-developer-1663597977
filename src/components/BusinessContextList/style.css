@@ -30,11 +30,13 @@
 .business-context__list {
   gap: 1rem;
   display: flex;
+  min-width: max-content;
   list-style-type: none;
 }
 
 @media only screen and (min-width: 37.5em) {
   .business-context__list {
     display: block;
+    min-width: unset;
   }
 }
